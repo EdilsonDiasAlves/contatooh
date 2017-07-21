@@ -1,5 +1,7 @@
 var express = require('express');
-var home = require('../app/routes/home');
+var load = require('express-load');
+var bodyParser = require('body-parser');
+var method_override = require('method-override')();
 
 module.exports = function(){
 	var app = express();
@@ -11,7 +13,15 @@ module.exports = function(){
 
 	// middlewares
 	app.use(express.static('./public'));
-	home(app);
+	app.use(bodyParser.urlencoded({extended: true}));
+	app.use(bodyParser.json());
+	app.use(method_override);
+
+	//express-load
+	load('models', {cwd: 'app'})
+		.then('controllers')
+		.then('routes')
+		.into(app);
 
 	return app;
 };
