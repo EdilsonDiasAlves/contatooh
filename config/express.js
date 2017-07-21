@@ -1,12 +1,12 @@
 var express = require('express');
-var home = require('./app/routes/home');
+var home = require('../app/routes/home');
 
 module.exports = function(){
 	var app = express();
 
-	// variáveis de ambiente - chave e valor
+	// variáveis de ambiente
 	app.set('port', 3000);
-	app.set('view engine', ejs);
+	app.set('view engine', 'ejs');
 	app.set('views', './app/views');
 
 	// middlewares

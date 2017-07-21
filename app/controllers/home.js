@@ -1,4 +1,5 @@
-module.exports = function(){
-	var controller = {};
-	return controller;
-}
+module.exports = {
+	index: function(req, res){
+		res.render('index', {nome: 'Express'});
+	}
+};
