@@ -1,0 +1,12 @@
+{
+  "name": "contatooh",
+  "version": "0.0.0",
+  "description": "CRUD de contatos",
+  "authors": [
+    "EdilsonDiasAlves"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.3"
+  }
+}
