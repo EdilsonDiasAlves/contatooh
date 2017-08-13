@@ -11,6 +11,9 @@ module.exports = {
 	listaContatos : function(req, res){
 		res.json(contatos);
 	},
+	salvaContato : function(req, res){
+	    console.log('Salvando contato...');
+	},
 	obtemContato : function(req, res){
 		var idContato = req.params.id;
 		var contato = contatos.filter(function(contato){
@@ -20,5 +23,13 @@ module.exports = {
 		contato ?
 			res.json(contato) :
 			res.status(404).send('Contato não encontrado');
+	},
+	removeContato : function(req, res){
+	  var idContato = req.params.id;
+	  console.log('Removendo contato de codigo ' + idContato);
+	  contatos = contatos.filter(function(contato){
+	  	return contato._id != idContato;
+	  });
+	  res.sendStatus(204).end();
 	}
 };
