@@ -1,13 +1,11 @@
 angular.module('contatooh').controller('ContatosController', 
-  function($scope, $resource){
+  function($scope, Contato){
 
     $scope.contatos = [];
       
     $scope.filtro = '';
 
     $scope.mensagem = {texto: ''};
-    
-    var Contato = $resource('/contatos/:id');
 
     function buscaContatos(){
       Contato.query(  
