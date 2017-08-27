@@ -2,6 +2,8 @@ var mongoose = require('mongoose');
 
 module.exports = function(uri){
 
+	mongoose.set('debug',true);
+
 	mongoose.connect(uri, {server : {poolSize : 20}});
 
 	mongoose.connection.on('connected', function(){
