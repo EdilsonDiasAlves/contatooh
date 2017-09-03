@@ -6,7 +6,7 @@ module.exports = function(app){
 
 	//A função encadeada exec() retorna uma promise
 	controller.listaTodos = function(req, res){
-		Contato.find()
+		Contato.find().populate('emergencia')
 		.exec()
 		.then(
 			function(contatos){
@@ -48,6 +48,9 @@ module.exports = function(app){
 
 	controller.salvaContato = function(req, res){
 		var _id = req.body._id;
+
+		req.body.emergencia = req.body.emergencia || null;
+
 		if(_id){
 			Contato.findByIdAndUpdate(_id, req.body).exec()
 			.then(
