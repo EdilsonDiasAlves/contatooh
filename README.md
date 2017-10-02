@@ -4,7 +4,7 @@ Este projeto é um exemplo de CRUD em MEAN.
 
 ## Pré Requisitos
 
-Node.js, MongoDB
+Node.js, MongoDB, Bower
     
 ## Como instalar e rodar na máquina.
 
