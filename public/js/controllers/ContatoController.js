@@ -1,4 +1,4 @@
-angular.module('contatooh').controller('ContatoController',
+angular.module('sigco').controller('ContatoController',
   function($scope, $routeParams, Contato){
 
   	$scope.contato = new Contato();

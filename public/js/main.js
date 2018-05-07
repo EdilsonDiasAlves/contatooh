@@ -1,4 +1,4 @@
-angular.module('contatooh', ['ngRoute', 'ngResource'])
+angular.module('sigco', ['ngRoute', 'ngResource'])
   .config(function($routeProvider){
     
     $routeProvider.when('/contatos', {

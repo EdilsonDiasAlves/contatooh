@@ -1,4 +1,4 @@
-angular.module('contatooh').factory('Contato',
+angular.module('sigco').factory('Contato',
   function($resource) {
   return $resource('/contatos/:id');
 });

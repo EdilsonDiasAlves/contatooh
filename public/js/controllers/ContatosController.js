@@ -1,4 +1,4 @@
-angular.module('contatooh').controller('ContatosController', 
+angular.module('sigco').controller('ContatosController', 
   function($scope, Contato){
 
     $scope.contatos = [];
