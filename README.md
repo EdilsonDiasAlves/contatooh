@@ -14,7 +14,7 @@ Devem ser instaladas as seguintes ferramentas:
 
 Clonar o repositório num diretório de sua preferência
 ```shell
-git clone https://github.com/edilsondiasalves/contatooh.git
+git clone https://github.com/EdilsonDiasAlves/sigco
 ```
 
 Acessar a pasta do projeto
