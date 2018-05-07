@@ -1,10 +1,14 @@
 # CRUD de agenda de contatos
 
-Este projeto é um exemplo de CRUD em MEAN.
+Este é o SIGCO - Sistema de Gerenciamento de Contatos. Foi criado utilizando MEAN - MongoDB, Express, AngularJS e Node.js, inicialmente para fins de estudo.
 
 ## Pré Requisitos
 
-Node.js, MongoDB, Bower
+Devem ser instaladas as seguintes ferramentas:
+
+### Node.js  
+### MongoDB  
+### Bower  
     
 ## Como instalar e rodar na máquina.
 
