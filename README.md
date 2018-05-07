@@ -1,4 +1,4 @@
-# CRUD de agenda de contatos
+# SIGCO - CRUD de agenda de contatos
 
 Este é o SIGCO - Sistema de Gerenciamento de Contatos. Foi criado utilizando MEAN - MongoDB, Express, AngularJS e Node.js, inicialmente para fins de estudo.
 
