@@ -1,2 +1,11 @@
 node_modules/
 public/vendor
+public/body-parser
+public/ejs
+public/express-load
+public/express
+public/gulp-npm-dist
+public/gulp
+public/method-override
+public/mongodb
+public/mongoose

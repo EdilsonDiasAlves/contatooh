@@ -8,7 +8,7 @@ Devem ser instaladas as seguintes ferramentas:
 
 ### Node.js  
 ### MongoDB  
-### Bower  
+### Yarn  
     
 ## Como instalar e rodar na máquina.
 
@@ -22,14 +22,9 @@ Acessar a pasta do projeto
 cd sigco
 ```
 
-Instalar dependencias do node
+Instalar dependencias
 ```shell
-npm install
-```
-
-Instalar dependencias do front end
-```shell
-bower install
+yarn
 ```
 
 Startar o serviço do mongoDB
