@@ -19,7 +19,7 @@ git clone https://github.com/EdilsonDiasAlves/sigco
 
 Acessar a pasta do projeto
 ```shell
-cd contatooh
+cd sigco
 ```
 
 Instalar dependencias do node
