@@ -42,4 +42,4 @@ Iniciar a aplicação
 node server
 ```
 
-Acessar a página através do caminho http://localhost:3000/cadastrarEvento
+Acessar a página através do caminho http://localhost:3000
