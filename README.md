@@ -1,45 +1,45 @@
-# SIGCO - CRUD de agenda de contatos
+# SIGCO - CRUD contact book
 
-Este é o SIGCO - Sistema de Gerenciamento de Contatos. Foi criado utilizando MEAN - MongoDB, Express, AngularJS e Node.js, inicialmente para fins de estudo.
+This is SIGCO - Sistema de Gerenciamento de Contatos. It was created using MEAN - MongoDB, Express, AngularJS and Node.js, initially for study purposes.
 
-## Pré Requisitos
+## Requirements
 
-Devem ser instaladas as seguintes ferramentas:
+The following tools must be installed:
 
 ### Node.js  
 ### MongoDB  
 ### Bower  
     
-## Como instalar e rodar na máquina.
+## Installing and run.
 
-Clonar o repositório num diretório de sua preferência
+Clone the repository to a directory of your choice
 ```shell
 git clone https://github.com/EdilsonDiasAlves/sigco
 ```
 
-Acessar a pasta do projeto
+Access the project's page
 ```shell
 cd sigco
 ```
 
-Instalar dependencias do node
+Install node dependencies
 ```shell
 npm install
 ```
 
-Instalar dependencias do front end
+Install frontend dependencies
 ```shell
 bower install
 ```
 
-Startar o serviço do mongoDB
+Start mongodb service
 ```shell
 mongod
 ```
 
-Iniciar a aplicação
+Start the application
 ```shell
 node server
 ```
 
-Acessar a página através do caminho http://localhost:3000
+Access the application through the path http://localhost:3000
